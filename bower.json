@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "description": "collins mwiti portfolio",
+  "main": "gulpfile.js",
+  "authors": [
+    "Collins Mwiti"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/collinsmwiti/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "collins mwiti portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinsmwiti/portfolio.git"
+  },
+  "author": "Collins Mwiti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/collinsmwiti/portfolio/issues"
+  },
+  "homepage": "https://github.com/collinsmwiti/portfolio#readme"
+}
