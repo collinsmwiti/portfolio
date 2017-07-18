@@ -39,6 +39,32 @@ html, body {
   color: #999
 }
 
+
+/*### CSS ### // ################  AUTO TYPE #####################33*/
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#type-area {
+  font: bold 100% Consolas, Monaco, monospace;
+  border-right: .1em solid black;
+  width: 16.5em;
+  width: 21ch;
+  margin: 2em 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 10s steps(21, end), blink-caret .5s step-end infinite alternate;
+}
+
 .no-padding {
   padding-left: 0;
   padding-right: 0;
