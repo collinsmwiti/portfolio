@@ -281,4 +281,13 @@ small {
     text-align: center;
     margin: 0 auto;
   }
+  #hidden-first {
+    display: none;
+  }
+  .morecontent span {
+    display: none;
+  }
+  .morelink {
+    display: block;
+  }
 }

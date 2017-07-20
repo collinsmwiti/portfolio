@@ -23,6 +23,7 @@
 
   <!-- modernizr -->
   <script src="js/modernizr.js"></script>
+  <script src="js/hide.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,9 +64,9 @@
     <nav>
       <ul class="box-primary-nav">
         <li class="box-label">My Credentials</li>
-        <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
+        <li><a href="index.html">Intro</a></li>
         <li><a href="about.html">About me</a></li>
-        <li><a href="https://collinsmwiti.github.io/blog/">Blog</a></li>
+        <li><a href="https://coderwall.com/collins%20mutuma%20mwenda%20mwiti" target="_blank">Blog</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="project.html">Projects</a></li>
         <li><a href="contact.html">Contact me</a></li>
@@ -82,36 +83,40 @@
   <!-- end top bar -->
 
   <section id="projects" class="section scrollspy">
-    <div class="clearfix">
-      <h3></h3>
-      <div class="container">
-        <div class="row">
-          <!-- Code Island-->
-          <div class="col-md-4">
-            <a href="http://playr-project.herokuapp.com/"><img src="img/playr.jpg" width="200px"></a>
-            <h2>Playr</h2>
-            <p>A custom playlist maker</p>
+    <h3></h3>
+    <div class="container">
+      <div class="row">
+        <!-- Code Island-->
+        <div class="col-md-4">
+          <a href="http://playr-project.herokuapp.com/"><img src="img/playr.png" width="150px"></a>
+          <h2>Playr</h2>
+          <div class="more">
+            <p>A custom playlist maker</p><br>
             <p><strong>Accomplishments</strong></p>
             <p>
               Created Playr database and its tables using PostgreSQL, its classes together with their tests and also the app routes and connected them to make the app to perform efficiently without breaking down.<br> Did all the tests with gradle for
               the app to ensure that its compatible, efficient and free of bugs.<br> Helped in designing of the app using agile methods.<br> Helped in integrating youtube and vimeo apis to the app.
               <br> Helped in hosting the app by creating a hosting platform class for the app.<br>Made the app to be responsive.<br>
-            </p>
+            </p><br>
           </div>
-          <!-- Saved By the Text-->
-          <div class="col-md-4">
-            <a href="https://wildlife-track.herokuapp.com/"><img src="img/wildlife-tracker.png" width="200px"></a>
-            <h2>Wildlife Tracker</h2>
+        </div>
+        <!-- Saved By the Text-->
+        <div class="col-md-4">
+          <a href="https://wildlife-track.herokuapp.com/"><img src="img/wildlife-tracker.png" width="150px"></a>
+          <h2>Wildlife Tracker</h2>
+          <div class="more">
             <p>An application that allows Rangers to track wildlife sightings in the area.</p>
             <p><strong>Accomplishments</strong></p>
             <p>
               Hosted the app at Heroku.<br> Created the app using spark, postgresql, gradle for testing, css3, bootstrap and Java for creating classes.<br> Designed the app using agile methods.<br>Made the app to be responsive.<br>
             </p>
           </div>
-          <!-- Skate Something-->
-          <div class="col-md-4">
-            <a href="https://contactms.herokuapp.com/"><img src="img/cm.jpg" width="200px"></a>
-            <h2>Contact Manager</h2>
+        </div>
+        <!-- Skate Something-->
+        <div class="col-md-4">
+          <a href="https://contactms.herokuapp.com/"><img src="img/cm.png" width="150px"></a>
+          <h2>Contact Manager</h2>
+          <div class="more">
             <p>This is a messenger dashboard for contact management within the organization created by ember js</p>
             <p><strong>Accomplishments</strong></p>
             <p>
@@ -121,13 +126,14 @@
             </p>
           </div>
         </div>
-        <div class="row">
-          <!-- Jichunge-->
-          <div class="col-md-4">
-            <a href="https://play.google.com/store/search?q=jichunge"><img src="img/fist.png" width="150px"></a>
-            <h2>Jichunge</h2>
-            <p>This is an android application which notifies the users emergency contacts by sms or a call when the user is in danger. It also consists of a siren to alert incase if the user has been cornered by thugs ,also, it has a map to show the user
-              his/her location if he/she is in a new place</p>
+      </div>
+      <div class="row">
+        <!-- Jichunge-->
+        <div class="col-md-4">
+          <a href="https://play.google.com/store/search?q=jichunge"><img src="img/fist.png" width="150px"></a>
+          <h2>Jichunge</h2>
+          <div class="more">
+            <p>This is an android application which notifies the users emergency contacts when the user is in danger.</p>
             <p><strong>Accomplishments</strong></p>
             <p>
               Enabled authentication of users by connecting the app to firebase.<br> Launched the app at playstore.<br> Integrated google services api to the app to display users information about their location.<br> Added sms feature to the app which
@@ -135,10 +141,12 @@
               emergency contacts and notify them about their whereabouts.<br>Added call feature in the app in order for users to contact their emergency contacts to update them about their whereabouts.<br>
             </p>
           </div>
-          <!-- Message board-->
-          <div class="col-md-4">
-            <a href="https://peaceful-journey-88848.herokuapp.com/"><img src="img/message.jpg" width="400px"></a>
-            <h2>Q&A Message board</h2>
+        </div>
+        <!-- Message board-->
+        <div class="col-md-4">
+          <a href="https://peaceful-journey-88848.herokuapp.com/"><img src="img/message.png" width="150px"></a>
+          <h2>Q&A Message board</h2>
+          <div class="more">
             <p>This is a question and answer messenger platform for spending time with friends</p>
             <p><strong>Accomplishments</strong></p>
             <p>
@@ -146,10 +154,12 @@
               the app.<br> Designed the app using agile methods.<br>Made the app responsive.<br>
             </p>
           </div>
-          <!-- e-commerce-->
-          <div class="col-md-4">
-            <a href="https://pacific-journey-65386.herokuapp.com/"><img src="img/Suit.png" width="200px"></a>
-            <h2>Gentleman's Class</h2>
+        </div>
+        <!-- e-commerce-->
+        <div class="col-md-4">
+          <a href="https://pacific-journey-65386.herokuapp.com/"><img src="img/Suit.jpg" width="150px"></a>
+          <h2>Gentleman's Class</h2>
+          <div class="more">
             <p>Provides a platform to enable e-commerce to take place </p>
             <p><strong>Accomplishments</strong></p>
             <p>
@@ -158,6 +168,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -185,6 +196,7 @@
   <script src="js/isotope.pkgd.min.js"></script>
   <!--  custom script -->
   <script src="js/custom.js"></script>
+  <script src="js/hide.js"></script>
 
   <!-- google analytics  -->
   <script>
